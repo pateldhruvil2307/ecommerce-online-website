@@ -3,19 +3,19 @@ import React, { useState } from 'react';
 const reviews = [
   {
     id: 1,
-    name: "John Doe",
+    name: "vipul patel",
     message: "This product is amazing! Highly recommend to everyone.",
     role: "Customer",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Smith patel",
     message: "Excellent quality and fast shipping. Will buy again.",
     role: "Verified Buyer",
   },
   {
     id: 3,
-    name: "Michael Johnson",
+    name: "ronak patel",
     message: "Really happy with the customer service and support.",
     role: "Happy Client",
   },

@@ -167,7 +167,7 @@ const Allproduct = ({ addtocart }) => {
                 <strong>Name:</strong> {item.title}
               </p>
               <p>
-                <strong>Price:</strong> ${item.price}
+                <strong>Price:</strong> {item.price}
               </p>
                 <button
                   onClick={() => addtocart(item)}

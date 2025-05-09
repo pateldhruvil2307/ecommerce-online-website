@@ -40,7 +40,7 @@ const PopularProduct = ({ addtocart }) => {
     <div className="mt-4">
       <h2 className="text-gray-900 title-font text-lg font-medium">{productItem.title}</h2>
       <p className="mt-1 flex items-center justify-between">
-        <span>${productItem.price}</span>
+        <span>{productItem.price}</span>
         <button
           onClick={() => addtocart(productItem)}
           className="bg-red-950 hover:bg-blue-500 text-white px-4 py-2 rounded-lg shadow transition-all"

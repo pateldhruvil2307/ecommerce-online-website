@@ -16,6 +16,8 @@ import Chackoutpage from './Componets/Chackoutpage/Chackoutpage';
 import Singleproduct from './Pages/Singleproduct/Singleproduct';
 import Contectpage from './Pages/Contectpage/Contectpage';
 import About from './Pages/About/About';
+import React from 'react';
+
 
 function App() {
   const [cart, setCart] = useState([]);
