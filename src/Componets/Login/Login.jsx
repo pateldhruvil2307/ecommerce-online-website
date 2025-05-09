@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
 import {useState }from 'react'
-import { isValidEmail, isValidPassword } from '../Validation/Validation';
+import { isValidEmail ,isValidPassword } from "../../Validation/Validation";
 import toast from 'react-hot-toast'
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebaseauth/Firebaseauth';
